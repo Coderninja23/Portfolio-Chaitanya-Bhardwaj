@@ -51,6 +51,17 @@ function Projects() {
               ghLink="https://github.com/Coderninja23/PDS-Project--Obstacle-dodging-game-Forza-Horizon---6-"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="ERP Portal"
+              description=" A Full-stack application which allows the students to view/upload assignments, check attendance, give feedback,
+              choose subjects, etc. Teachers can upload attendance, assignments, upload results etc"
+              ghLink="https://github.com/Coderninja23/ERP-Website"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
